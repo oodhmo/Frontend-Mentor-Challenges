@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fd;
+  margin: 0;
+  padding: 20px;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.fm {
+  text-decoration: underline;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: scroll;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border: none;
+}
+
+th {
+  background-color: #fff;
+  color: #333;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+td a {
+  color: black;
+  font-weight: 700;
+
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e9f1ff;
+}
+
+.level {
+  border-radius: 0.5rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  display: inline-flex;
+  line-height: 1.5;
+}
+
+.num,
+.name {
+  padding: 0 0.3rem;
+  font-weight: 700;
+}
+
+.num {
+  color: white;
+}
+
+.name {
+  background-color: transparent;
+}
+
+.junior {
+  border: 1px solid rgb(170, 215, 66);
+}
+
+.junior .num {
+  background-color: rgb(170, 215, 66);
+}
+
+.junior .name {
+  color: rgb(170, 215, 66);
+}
+
+.intermediate {
+  border: 1px solid rgb(241, 182, 4);
+}
+
+.intermediate .num {
+  background-color: rgb(241, 182, 4);
+}
+
+.intermediate .name {
+  color: rgb(241, 182, 4);
+}
+
+.advanced {
+  border: 1px solid rgb(244, 137, 37);
+}
+
+.advanced .num {
+  background-color: rgb(244, 137, 37);
+}
+
+.advanced .name {
+  color: rgb(244, 137, 37);
+}
+
+/* 사용 스택 */
+.tech {
+  margin: 8px;
+}
+
+.item {
+  font-weight: 700;
+  padding: 1px 5px;
+}
+
+.js {
+  border: 1px solid #efd300;
+  border-radius: 30px;
+  background-color: hsl(57, 100%, 93%);
+  color: #efd300;
+  
+}
+
+.vue {
+  border: 1px solid #00d165;
+  border-radius: 30px;
+  background-color: #ceffe6;
+  color: #00d165;
+}
+
+.scss {
+  border: 1px solid #ff42c3;
+  border-radius: 30px;
+  background-color: #ffd3f2;
+  color: #ff42c3;
+}
+
+.ts {
+  border: 1px solid #4d5ce3;
+  border-radius: 30px;
+  background-color: #dee1ff;
+  color: #4d5ce3;
+}
