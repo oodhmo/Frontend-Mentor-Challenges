@@ -1,0 +1,225 @@
+
+/* commons */
+h1, h2, h3 {
+  margin: 0;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mtb-5 {
+  margin: 8px 0px;
+}
+
+/* default */
+body {
+  background-color: #fcfee6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h2 {
+  color: #2B7799;
+  text-align: center;
+}
+
+a {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 364px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: box-shadow 0.5s ease;
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card-content {
+  width: 310px;
+}
+
+.description {
+  font-size: 13px;
+  width: 100%;
+  overflow-wrap: break-word; /* 단어 단위로 줄바꿈 */
+  word-break: normal; /* 줄바꿈 허용 */
+}
+
+.page-list {
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+}
+
+.page-list a {
+  margin-bottom: 3px;
+}
+
+a img {
+  margin-right: 4px;
+}
+
+.dvs {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.444);
+}
+
+/* 기술 스택 */
+.beans {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.bean {
+  border-radius: 30px;
+  padding: 1px 6px; 
+  font-weight: 700;
+  cursor: default;
+}
+
+.js {
+  border: 1px solid rgb(222, 211, 0);
+  background-color: rgb(255, 255, 228);
+  color: rgb(222, 211, 0);
+}
+
+.vue {
+  border: 1px solid rgb(44, 202, 0);
+  background-color: rgb(232, 255, 228);
+  color: rgb(48, 222, 0);
+}
+
+.scss {
+  border: 1px solid rgb(255, 63, 185);
+  background-color: rgb(255, 228, 244);
+  color: rgb(255, 63, 185);
+}
+
+.ts {
+  border: 1px solid rgb(63, 85, 255);
+  background-color: rgb(228, 237, 255);
+  color: rgb(63, 85, 255);
+}
+
+/* 이미지, 아이콘 설정 */
+.img-container {
+  width: 310px;
+  height: 230px;
+  overflow: hidden;
+}
+
+.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 그리드 */
+.content {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  justify-items: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr); /* 화면이 작아지면 두 개씩 */
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: repeat(1, 1fr); /* 더 작아지면 한 개씩 */
+  }
+}
+
+
+/* 레벨 */
+
+.level {
+  cursor: default;
+  font-size: 12px;
+  border-radius: 0.5rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  display: inline-flex;
+  line-height: 1.5;
+}
+
+.num,
+.name {
+  padding: 0 0.3rem;
+  font-weight: 700;
+}
+
+.num {
+  color: white;
+}
+
+.name {
+  background-color: transparent;
+}
+
+.junior {
+  border: 1px solid rgb(170, 215, 66);
+}
+
+.junior .num {
+  background-color: rgb(170, 215, 66);
+}
+
+.junior .name {
+  color: rgb(170, 215, 66);
+}
+
+.intermediate {
+  border: 1px solid rgb(241, 182, 4);
+}
+
+.intermediate .num {
+  background-color: rgb(241, 182, 4);
+}
+
+.intermediate .name {
+  color: rgb(241, 182, 4);
+}
+
+.advanced {
+  border: 1px solid rgb(244, 137, 37);
+}
+
+.advanced .num {
+  background-color: rgb(244, 137, 37);
+}
+
+.advanced .name {
+  color: rgb(244, 137, 37);
+}
