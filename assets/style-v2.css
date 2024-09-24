@@ -162,7 +162,7 @@ a img {
   gap: 40px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1414px) {
   .content {
     grid-template-columns: repeat(2, 1fr); /* 화면이 작아지면 두 개씩 */
   }
