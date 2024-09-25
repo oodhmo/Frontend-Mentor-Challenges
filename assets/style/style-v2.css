@@ -31,7 +31,7 @@ body {
   padding: 80px 0;
 }
 
-h2 {
+.subject {
   color: #2B7799;
   text-align: center;
 }
@@ -271,4 +271,10 @@ a img {
 
 .advanced .name {
   color: rgb(244, 137, 37);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: #838383;
 }
