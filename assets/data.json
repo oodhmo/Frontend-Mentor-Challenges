@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "Notification Page",
+    "img": "./assets/click.gif",
+    "liveUrl": "https://hoijoii.github.io/Notification-Page/",
+    "level": "2|junior",
+    "description": "클릭 시 알림이 해제되는 알림페이지.<br>json 파일에 저장된 객체 데이터를 깊은 복사한 후 변형해 '읽음' 표시를 합니다.<br>스타일을 동적으로 바인딩할 수 있는 Vue의 기능을 이용하였습니다.",
+    "skills": "javascript|vue3|scss",
+    "github": "https://github.com/hoijoii/Notification-Page",
+    "feHub": "https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC/hub"
+  },
+  {
+    "subject": "Space-Tourism",
+    "img": "./assets/space-tourism.gif",
+    "liveUrl": "https://hoijoii.github.io/Space-Tourism/",
+    "level": "3|intermediate",
+    "description": "우주 여행 컨셉으로 태양계 천체와 우주 비행사, 우주선을 소개하는 웹 페이지.<br>반응형 웹을 구현하기 위해 <strong>미디어쿼리</strong>를 적극 사용하였으며, <strong>Pinia Store</strong>와 <strong>Vue-Router</strong>를 이용해 탭의 이동을 구현했습니다.",
+    "skills": "javascript|vue3|scss",
+    "github": "https://github.com/hoijoii/Space-Tourism",
+    "feHub": "https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3/hub"
+  },
+  {
+    "subject": "Multi-Step-Form",
+    "img": "./assets/multi.gif",
+    "liveUrl": "https://hoijoii.github.io/Multi-Step-Form/",
+    "level": "4|advanced",
+    "description": "정기구독 가입 폼을 구현한 웹 페이지.<br>매 Step마다 정규표현식으로 <strong>Form Validation Checking</strong>을 하며, <strong>Pinia Store</strong>를 이용해 사용자의 입력/선택과 총 Cost를 저장합니다.",
+    "skills": "typescript|vue3|scss",
+    "github": "https://github.com/hoijoii/Multi-Step-Form",
+    "feHub": "https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ/hub"
+  },
+  {
+    "subject": "Interactive Comments Section",
+    "img": "./assets/interactive.gif",
+    "liveUrl": "https://hoijoii.github.io/Interactive-comment-section/",
+    "level": "3|intermediate",
+    "description": "댓글 달기, 좋아요, 대댓글, 댓글 편집, 삭제 등의 상호작용을 할 수 있는 댓글창.<br><strong>Props</strong>와 <strong>Emit</strong>을 주요 기능으로 하여 <strong>Component</strong> 간 데이터를 주고 받습니다. Modal의 동작은 Store의 <strong>Dialog 상태변화</strong>를 통해 구현하였습니다.",
+    "skills": "typescript|vue3|scss",
+    "github": "https://github.com/hoijoii/Interactive-comment-section",
+    "feHub": "https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9"
+  }
+]

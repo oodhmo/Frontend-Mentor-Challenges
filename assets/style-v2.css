@@ -84,7 +84,7 @@ a img {
   margin-right: 4px;
 }
 
-.dvs {
+.card-body {
   padding-bottom: 15px;
   flex-grow: 1;
 }
@@ -112,13 +112,13 @@ a img {
   cursor: default;
 }
 
-.js {
+.javascript {
   border: 1px solid rgb(222, 211, 0);
   background-color: rgb(255, 255, 228);
   color: rgb(222, 211, 0);
 }
 
-.vue {
+.vue3 {
   border: 1px solid rgb(44, 202, 0);
   background-color: rgb(232, 255, 228);
   color: rgb(48, 222, 0);
@@ -130,7 +130,7 @@ a img {
   color: rgb(255, 63, 185);
 }
 
-.ts {
+.typescript {
   border: 1px solid rgb(63, 85, 255);
   background-color: rgb(228, 237, 255);
   color: rgb(63, 85, 255);
