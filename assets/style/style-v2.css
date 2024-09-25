@@ -1,6 +1,7 @@
-
 /* commons */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -41,6 +42,28 @@ a {
   align-items: center;
 }
 
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #838383;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  /* 드래그 방지 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-use-select: none;
+  user-select: none;
+}
+
+button img {
+  width: 20px;
+  margin-right: 5px;
+}
+
 /* CARD */
 .card {
   width: 364px;
@@ -75,8 +98,10 @@ a {
 .description {
   font-size: 13px;
   width: 100%;
-  overflow-wrap: break-word; /* 단어 단위로 줄바꿈 */
-  word-break: normal; /* 줄바꿈 허용 */
+  overflow-wrap: break-word;
+  /* 단어 단위로 줄바꿈 */
+  word-break: normal;
+  /* 줄바꿈 허용 */
 }
 
 .page-list {
@@ -118,7 +143,7 @@ a img {
 
 .bean {
   border-radius: 30px;
-  padding: 1px 6px; 
+  padding: 1px 6px;
   font-weight: 700;
   cursor: default;
 }
@@ -164,30 +189,29 @@ a img {
   margin: 80px 0;
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%);  
+  max-width: 1200px;
+
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
-  max-width: 1200px;
   gap: 40px;
 }
 
 @media (max-width: 1200px) {
   .content {
-    grid-template-columns: repeat(2, 1fr); /* 화면이 작아지면 두 개씩 */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
   .content {
-    grid-template-columns: repeat(1, 1fr); /* 더 작아지면 한 개씩 */
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
-
 /* 레벨 */
-
 .level {
   cursor: default;
   font-size: 12px;

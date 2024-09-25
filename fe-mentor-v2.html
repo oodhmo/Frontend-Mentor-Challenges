@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor Challenges</title>
-  <link rel="stylesheet" href="./assets/style-v2.css">
+  <link rel="stylesheet" href="./assets/style/style-v2.css">
 </head>
 
 <body>
   <div class="container">
     <div class="wrapper">
       <h2 class="subject">프론트엔드 멘토 챌린지</h2>
+
       <div class="content"></div>
     </div>
   </div>
@@ -19,7 +20,7 @@
   <script>
     const content = document.querySelector('.content')
 
-    fetch('./assets/data.json')
+    fetch('./assets/data/data.json')
       .then((res => res.json()))
       .then((data => {
 
@@ -59,7 +60,7 @@
                   <div class="page-list">
                     <a href="${item.github}" target="_blank"
                       class="mr-10">
-                      <img src="./assets/github.png" width="17px">
+                      <img src="./assets/icons/github.png" width="17px">
                       GitHub
                     </a>
                     <div>
