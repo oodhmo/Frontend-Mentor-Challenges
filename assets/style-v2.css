@@ -41,9 +41,10 @@ a {
   align-items: center;
 }
 
+/* CARD */
 .card {
   width: 364px;
-  min-height: 510px;
+  min-height: 530px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -59,6 +60,16 @@ a {
 
 .card-content {
   width: 310px;
+}
+
+.period {
+  font-size: 13px;
+  color: gray;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 700;
 }
 
 .description {
@@ -162,7 +173,7 @@ a img {
   gap: 40px;
 }
 
-@media (max-width: 1414px) {
+@media (max-width: 1200px) {
   .content {
     grid-template-columns: repeat(2, 1fr); /* 화면이 작아지면 두 개씩 */
   }
