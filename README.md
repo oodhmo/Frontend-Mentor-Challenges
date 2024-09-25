@@ -1,6 +1,6 @@
 ## Frontend Mentor Challenges
 
-https://oodhmo.github.io/Frontend-Mentor-Challenges/🚀
+🚀 https://oodhmo.github.io/Frontend-Mentor-Challenges/
 
 참여했던 프론트엔드 멘토 챌린지를 정리한 페이지입니다.
 <br><br>
